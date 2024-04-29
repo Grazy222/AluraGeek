@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 16vh;
+    background-color:#5D04D9 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img.logo{
+    width:30% ;
+    height: 42%;
+    
+}
+/* fecha header */
+
+/* Sessão */
+h3{
+    font-size: 20px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+section{
+    height: 100vh;
+    display: flex;
+        
+}
+div.classicos{
+    width: 60%;
+    
+    
+    
+}
+div.titulo{
+    width: 71%;
+    height: 11%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.imagemBoneco1{
+    width: 90%;
+    height: 30%;
+    gap: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+
+}
+img.skil{
+    width: 17%;
+    height: 85%;
+    
+}
+img.skrol{
+    height: 81%;
+   margin-left: 10%; 
+}
+div.imagemBoneco2{
+    width: 78%;
+    height: 30%;
+    gap: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img.skil2{
+    width: 20%;
+    height: 86%;
+}
+img.cabeca2{
+    height: 88%;
+}
+div.imagemBoneco3{
+    width: 77%;
+    height: 29%;
+    gap: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img.cabeca3{
+    width: 21%;
+    height: 90%;  
+
+}
+img.skil3{
+    width: 20%;
+    height: 88%;
+}
+
+img.cabeca{
+    width: 18%;
+    height: 86%;
+}
+img.imagemLego{
+    width: 36%;
+    height: 89vh;
+    padding: 2% 3%;
+    
+
+}
+div.scrol{
+    
+    height:25%;
+    
+    margin-top: 29px;
+    
+    
+}
+div.formulario{
+    width: 28%;
+    height: 74%;
+}
+.imagemScrol{
+    
+    height: 79%;
+}
+
+/* ---- footer---- */
+footer{
+    
+    background-color: #5D04D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.logo-footer{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      
+   
+
+}
+.imagemFooter{
+    height: 33%;
+
+}
+p.paragrafoFooter,.subParagrafo{
+    text-align: center;
+    color: aliceblue;
+    font-size: 10px;
+}
+@media screen and (max-width:430px) {
+    header{
+        width: 100%;
+    }
+    /* main{
+        display: flex;
+        flex-direction: column;
+    } */
+    section{
+        width: 100%;
+        height: 50%;
+        flex-direction: column-reverse;
+    }
+    img.imagemFormulario{
+        width: 55%;
+        height: 20%;
+       
+    }
+    div.classicos{
+        width: 100%;
+        margin-top: 19px;
+    }
+    div.titulo {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+    .titulo h3{
+        font-size: 13px;
+        
+    }
+    div.imagemBoneco1{
+        width: 100%;
+        height: 36vh;
+        
+    }
+    img.cabeca{
+        width: 22%;
+        height: 86%;
+    }
+    img.skil{
+        width: 23%;
+    }
+    img.skil2{
+        width: 26%;
+    }
+    div.formulario{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div.imagemBoneco2{
+        width: 86%;
+        height: 36vh;
+    }
+    img.cabeca2{
+        width: 25%;
+    }
+    img.cabeca3{
+        width: 27%;
+    }
+    img.skil3{
+        width: 25%;
+    }
+    div.imagemBoneco3{
+        width: 86%;
+        height: 36vh;
+    }
+    .imagemFooter{
+        width: 74%;
+    }
+    p.paragrafoFooter{
+        width: 104%;
+        font-size: 8px;
+    }
+    .subParagrafo{
+        font-size: 8px;
+    }
+    
+    
+    
+}
