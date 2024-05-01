@@ -15,44 +15,48 @@
     </header>
     <main>
         <section>
-            <div class="classicos">
+            <div id="produtos" class="vitrini">
                 <div class="titulo">
                     <h3>MEUS PRODUTOS:</h3>
                 </div>  
-                <div class="imagemBoneco1">
-                    <img src="./imagens/Property.png" alt="cabeca-boneco" class="cabeca">
-                    <img src="./imagens/Skill.png" alt="game" class="skil">
-                    <img src="./imagens/Property.png" alt="cabeca-boneco" class="cabeca">
+                <div class="bloco1">
+                    <img id="imagemXicara" src="./imagens/xicara.png" alt="cabeca-boneco" class="cabeca">
+                    <img id="miniGame" src="./imagens/gameBoy.png" alt="game" class="skil">
+                    <img id="imagemXicara" src="./imagens/xicara.png" alt="cabeca-boneco" class="cabeca">
                     <img src="./imagens/Scroll.png" alt="skrol" class="skrol">
                 </div>
-                <div class="imagemBoneco2">
-                    <img src="./imagens/Skill.png" alt="game" class="skil2">
-                    <img src="./imagens/Property.png" alt="cabeca-boneco" class="cabeca2">
-                    <img src="./imagens/Skill.png" alt="game" class="skil2">
+                <div class="bloco2">
+                    <img id="miniGame" src="./imagens/gameBoy.png" alt="game" class="skil2">
+                    <img id="imagemXicara" src="./imagens/xicara.png" alt="cabeca-boneco" class="cabeca2">
+                    <img id="miniGame" src="./imagens/gameBoy.png" alt="game" class="skil2">
                 </div>
-                <div class="imagemBoneco3">
-                    <img src="./imagens/Property.png" alt="cabeca-boneco" class="cabeca3">
-                    <img src="./imagens/Skill.png" alt="game" class="skil3">
-                    <img src="./imagens/Property.png" alt="cabeca-boneco" class="cabeca3">
+                <div class="bloco3">
+                    <img id="imagemXicara" src="./imagens/xicara.png" alt="cabeca-boneco" class="cabeca3">
+                    <img id="miniGame" src="./imagens/gameBoy.png" alt="game" class="skil3">
+                    <img id="imagemXicara" src="./imagens/xicara.png" alt="cabeca-boneco" class="cabeca3">
                 </div>
             </div><!-- div Classico -->
-            <div class="formulario">
-                <!-- <h3>ADICIONAR PRODUTO:</h3>
-                <form >
-                    <input type="text" name="nome" id="" placeholder="nome..."> </p>
-                    <input type="number" name="" id="" placeholder="valor...">
-                    <input type="number" name="" id="" placeholder="valor...">
-                    
-                    <div class="btn-enviar">
-                        <input type="submit" value="Guardar" placeholder="imagem...">
-                    </div>
-                    <div class="btn-limpar">
-                        <input type="reset" name="limpar" value="Limpar">
-                    </div>
-                </form> -->
-                <img class="imagemFormulario" src="./imagens/Form.png" alt="imagem Formmulario">
-            </div> 
             
+            <div  class="formulario">
+                 <h3>ADICIONAR PRODUTO:</h3>
+                 
+                    <form id="form" class="form">
+                        <input type="text"  id="username" placeholder="nome..."> 
+                        <input type="number"  id="valor" placeholder="valor...">
+                        
+                        <label for="picture__input" class="picture" tabindex="0">
+                            <span class="picture__image">Imagem...</span>
+                        </label> 
+                        <input id="picture__input" type="file" accept="image/*"  class="picture_input"/>
+                        
+                        <div id="carrinho" class="btn-enviar">
+                            <input onclick="carrinho" type="submit" class="enviar" value="Guardar" placeholder="imagem..."> 
+                        <div class="btn-limpar">
+                            <input type="reset" class="reset" name="limpar" value="Limpar">
+                        </div>
+                    </div>
+                </form> 
+            </div><!-- <img class="imagemFormulario" src="./imagens/Form.png" alt="imagem Formmulario">  --> 
         </section>
     </main>
     <footer>
@@ -62,5 +66,6 @@
         <p class="subParagrafo">ALURA LATAM- 2024</p>
        </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>

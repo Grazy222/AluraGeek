@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Press Start 2P", system-ui;
 }
 
 header{
     height: 16vh;
-    background-color:#5D04D9 ;
+    background:linear-gradient( 120deg, #5D04D9 20%, #03318C 100%)  ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,103 +32,243 @@ section{
     display: flex;
         
 }
-div.classicos{
-    width: 60%;
-    
-    
+div.vitrini{
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
+
 div.titulo{
     width: 71%;
     height: 11%;
-    
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-div.imagemBoneco1{
-    width: 90%;
-    height: 30%;
+div.bloco1{
+    width: 86%;
+    height: 28%;
     gap: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
-        
-
+}
+img.cabeca{
+    width: 21%;
+    height: 87%;
+}
+img.cabeca:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px #5D04D9;
 }
 img.skil{
-    width: 17%;
+    width: 21%;
     height: 85%;
     
-}
-img.skrol{
+ }
+ img.skil:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px #5D04D9;
+ }
+ img.skrol{
     height: 81%;
-   margin-left: 10%; 
+    margin-left: 10%; 
 }
-div.imagemBoneco2{
-    width: 78%;
-    height: 30%;
+ /* fecha bloco 1 */
+
+ div.bloco2{
+    width: 71%;
+    height: 28%;
     gap: 4%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    
 
 }
 img.skil2{
-    width: 20%;
-    height: 86%;
-}
-img.cabeca2{
+    width: 25%;
     height: 88%;
 }
-div.imagemBoneco3{
-    width: 77%;
+img.skil2:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px #5D04D9;
+}
+img.cabeca2{
+    width: 25%;
+    height: 88%;
+}
+img.cabeca2:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px #5D04D9;
+}
+/* fecha bloco 2 */
+
+div.bloco3{
+    width: 72%;
     height: 29%;
-    gap: 3%;
+    gap: 4%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
 }
 img.cabeca3{
-    width: 21%;
+    width: 25%;
     height: 90%;  
 
 }
+img.cabeca3:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px #5D04D9;
+}
 img.skil3{
-    width: 20%;
-    height: 88%;
+    width: 25%;
+    height: 89%;
+}
+img.skil3:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px #5D04D9;
 }
 
-img.cabeca{
-    width: 18%;
-    height: 86%;
-}
-img.imagemLego{
-    width: 36%;
-    height: 89vh;
-    padding: 2% 3%;
-    
 
-}
-div.scrol{
-    
-    height:25%;
-    
-    margin-top: 29px;
-    
-    
-}
+/*------------ fecha bloco 3 */
+
+ 
+
+/* ------------------formulario-------- */
 div.formulario{
-    width: 28%;
-    height: 74%;
-}
-.imagemScrol{
-    
-    height: 79%;
-}
+    width: 53%;
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    
+}
+form.form{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    border: #03318C solid;
+}
+/* ------ paragrafo-------- */
+
+div.formulario h3{
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+/* --------input------ */
+
+
+
+input#username{
+    border:#03318C solid ;
+    border-radius: 50px;
+    height: 12%;
+    cursor: pointer;
+}
+input#valor{
+    border:#03318C solid ;
+    border-radius: 50px;
+    height: 12%;
+    cursor: pointer;
+
+}
+input#image{
+    border:#03318C solid ;
+    border-radius: 50px;
+    height: 12%;
+
+}
+::placeholder{
+    font-size: 10px;
+    text-align: center;
+}
+/* ----label---imagem--- */
+
+label.picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #03318C solid;
+    height: 13%;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: color 300ms ease-in-out, background 300ms 
+    ease-in-out;
+    outline: none;
+    
+}
+.picture:hover{
+    color: #5D04D9;
+    background-color: #5D04D9;
+}
+.picture:active{
+    color: #7a757a;
+    background: #03318C;
+}
+.picture:focus{
+    color: #7a757a;
+    background: #03318C;
+    box-shadow: 0 0 10px #5D04D9;
+}
+span.picture__image{
+    font-size: 10px;
+    color:#7a757a;
+}
+#picture__input{
+    display: none;
+}
+/* ----input enviar--- */
+div.btn-enviar{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    
+}
+input.enviar{
+    background-color: #03318C;
+    color: #fffeff;
+    font-size: 11px;
+    border-radius: 5px;
+    border: none;
+    height: 6vh;
+    width: 25%;
+
+}
+input.enviar:hover{
+    cursor: pointer;
+}
+/* ------input limpar---- */
+div.btn-limpar{
+    width: 24%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;    
+
+}
+input.reset{
+    background-color: transparent ;
+    color: #03318C;
+    border: #03318C solid 2px;
+    font-size: 11px;
+    border-radius: 5px;
+    height: 6vh;
+    width: 100%;
+
+}
+input.reset:hover{
+    cursor: pointer;
+}
 /* ---- footer---- */
 footer{
     
@@ -176,7 +317,7 @@ p.paragrafoFooter,.subParagrafo{
         height: 20%;
        
     }
-    div.classicos{
+    div.vitrini{
         width: 100%;
         margin-top: 19px;
     }
@@ -243,4 +384,10 @@ p.paragrafoFooter,.subParagrafo{
     
     
     
+}
+@media screen and (max-width:768px){
+    section{
+        border: solid greenyellow;
+        flex-direction: column;
+    }
 }
