@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: "Press Start 2P", system-ui;
 }
-
 header{
     height: 16vh;
     background:linear-gradient( 120deg, #5D04D9 20%, #03318C 100%)  ;
@@ -12,264 +11,183 @@ header{
     justify-content: center;
     align-items: center;
 }
-img.logo{
-    width:30% ;
-    height: 42%;
-    
-}
-/* fecha header */
+/* fecha Cabeçalho */
 
-/* Sessão */
-h3{
-    font-size: 20px;
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 400;
-    font-style: normal;
-   
-}
 section{
-    height: 100vh;
     display: flex;
-        
-}
-div.vitrini{
-    width: 56%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    
     
 }
+.container {
+    width: 50%;
+    height: 100%;
+    padding: 15px 15px 10px;
+    text-align: center;
+    box-shadow: 0 0 15px #5D04D9;
 
-div.titulo{
-    width: 71%;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 11%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-div.bloco1{
-    width: 86%;
-    height: 28%;
-    gap: 3%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-img.cabeca{
-    width: 21%;
-    height: 87%;
-}
-img.cabeca:hover{
-    cursor: pointer;
-    box-shadow: 0 0 15px #5D04D9;
-}
-img.skil{
-    width: 21%;
-    height: 85%;
+    /* font-weight: 400;
+    font-style: normal; */
     
- }
- img.skil:hover{
-    cursor: pointer;
-    box-shadow: 0 0 15px #5D04D9;
- }
- img.skrol{
-    height: 81%;
-    margin-left: 10%; 
 }
- /* fecha bloco 1 */
+div.produto p{
+    font-size: 15px;
+    margin: 10px;
 
- div.bloco2{
-    width: 71%;
-    height: 28%;
-    gap: 4%;
+}
+.cards {
+    height: 97%;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+.imagem_card {
+    width: 60%;
     
-
+    
 }
-img.skil2{
-    width: 25%;
-    height: 88%;
-}
-img.skil2:hover{
+img.imagem_card:hover{
     cursor: pointer;
     box-shadow: 0 0 15px #5D04D9;
 }
-img.cabeca2{
-    width: 25%;
-    height: 88%;
-}
-img.cabeca2:hover{
+div.produto{
+    padding: 13px 9px;
     cursor: pointer;
-    box-shadow: 0 0 15px #5D04D9;
 }
-/* fecha bloco 2 */
+/* fechando vitrini */
 
-div.bloco3{
-    width: 72%;
-    height: 29%;
-    gap: 4%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-}
-img.cabeca3{
-    width: 25%;
-    height: 90%;  
-
-}
-img.cabeca3:hover{
-    cursor: pointer;
-    box-shadow: 0 0 15px #5D04D9;
-}
-img.skil3{
-    width: 25%;
-    height: 89%;
-}
-img.skil3:hover{
-    cursor: pointer;
-    box-shadow: 0 0 15px #5D04D9;
-}
-
-
-/*------------ fecha bloco 3 */
-
- 
-
-/* ------------------formulario-------- */
-div.formulario{
-    width: 53%;
+/* Estilizando formulário */
+#formulario {
+    margin-top: 40px;
     height: 68%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 15px #5D04D9;
 
-    
 }
-form.form{
-    width: 50%;
-    height: 80%;
+h2{
+    font-size: 19px;
+    margin: 14px;
+}
+#formProduto{
+    width: 60%;
+    height: 50vh;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    gap: 5%;
     justify-content: center;
-    border: #03318C solid;
-}
-/* ------ paragrafo-------- */
+    border: #03318C solid 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #9b75d1;
 
-div.formulario h3{
-    height: 20%;
+}
+label{
     display: flex;
     align-items: center;
-}
-/* --------input------ */
-
-
-
-input#username{
-    border:#03318C solid ;
-    border-radius: 50px;
-    height: 12%;
-    cursor: pointer;
-}
-input#valor{
-    border:#03318C solid ;
-    border-radius: 50px;
-    height: 12%;
-    cursor: pointer;
-
-}
-input#image{
-    border:#03318C solid ;
-    border-radius: 50px;
-    height: 12%;
-
-}
-::placeholder{
-    font-size: 10px;
-    text-align: center;
-}
-/* ----label---imagem--- */
-
-label.picture{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: #03318C solid;
     height: 13%;
     border-radius: 50px;
     cursor: pointer;
-    transition: color 300ms ease-in-out, background 300ms 
+    /* transition: color 300ms ease-in-out background 300ms
     ease-in-out;
-    outline: none;
-    
+    outline: none; */
 }
-.picture:hover{
-    color: #5D04D9;
-    background-color: #5D04D9;
-}
-.picture:active{
-    color: #7a757a;
-    background: #03318C;
-}
-.picture:focus{
-    color: #7a757a;
-    background: #03318C;
-    box-shadow: 0 0 10px #5D04D9;
-}
-span.picture__image{
-    font-size: 10px;
-    color:#7a757a;
-}
-#picture__input{
+input#image{
+    font-size: 10px; 
     display: none;
+   
 }
-/* ----input enviar--- */
-div.btn-enviar{
+#preview {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+
+div.btn{
     display: flex;
-    justify-content: space-evenly;
-    border-radius: 50px;
-    
+    justify-content: space-around;
+   margin: 10px;
+   padding: 10px;
 }
-input.enviar{
+/* button-guardar */
+
+button#guardarProduto.guardar{
     background-color: #03318C;
     color: #fffeff;
     font-size: 11px;
     border-radius: 5px;
     border: none;
     height: 6vh;
-    width: 25%;
-
+    margin: 10px;
+    padding: 10px;
+    /* width: 100%; */
 }
-input.enviar:hover{
+.guardar:hover{
     cursor: pointer;
 }
-/* ------input limpar---- */
-div.btn-limpar{
-    width: 24%;
-    display: flex;
-    justify-content: space-evenly;
-    border-radius: 5px;    
-
+button:hover{
+    cursor: pointer;
 }
-input.reset{
+
+/* button-limpar */
+#limpar.reset{
     background-color: transparent ;
     color: #03318C;
     border: #03318C solid 2px;
     font-size: 11px;
     border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
     height: 6vh;
     width: 100%;
-
 }
-input.reset:hover{
+.reset:hover{
     cursor: pointer;
 }
-/* ---- footer---- */
+input#productImagem{
+    font-size: 10px;
+}
+.hidden {
+    display: none;
+}
+
+input#nome{
+    width: 62%;
+    border:#03318C solid ;
+    border-radius: 50px;
+    height: 12%;
+    cursor: pointer;
+}
+input#valor{
+    width: 62%;
+    border:#03318C solid ;
+    border-radius: 50px;
+    height: 12%;
+    cursor: pointer;
+
+}
+input#imagem{
+    width: 62%;
+    border:#03318C solid ;
+    border-radius: 50px;
+    height: 12%;
+
+}
+::placeholder{
+    font-size: 8px;
+    text-align: center;
+}
+
+/* Fecha Main */
+
 footer{
     
     background-color: #5D04D9;
@@ -281,7 +199,7 @@ footer{
 
 div.logo-footer{
     width: 40%;
-    height: 60%;
+    height: 14vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -290,104 +208,15 @@ div.logo-footer{
    
 
 }
-.imagemFooter{
-    height: 33%;
+img.imagemFooter{
+    width: 27%;
+    height: 4vh;
 
 }
 p.paragrafoFooter,.subParagrafo{
+    padding: 6px 10px;
     text-align: center;
     color: aliceblue;
     font-size: 10px;
 }
-@media screen and (max-width:430px) {
-    header{
-        width: 100%;
-    }
-    /* main{
-        display: flex;
-        flex-direction: column;
-    } */
-    section{
-        width: 100%;
-        height: 50%;
-        flex-direction: column-reverse;
-    }
-    img.imagemFormulario{
-        width: 55%;
-        height: 20%;
-       
-    }
-    div.vitrini{
-        width: 100%;
-        margin-top: 19px;
-    }
-    div.titulo {
-        width: 100%;
-        height: 20%;
-        display: flex;
-        justify-content: center;
-        font-size: 10px;
-    }
-    .titulo h3{
-        font-size: 13px;
-        
-    }
-    div.imagemBoneco1{
-        width: 100%;
-        height: 36vh;
-        
-    }
-    img.cabeca{
-        width: 22%;
-        height: 86%;
-    }
-    img.skil{
-        width: 23%;
-    }
-    img.skil2{
-        width: 26%;
-    }
-    div.formulario{
-        width: 100%;
-        height: 40%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    div.imagemBoneco2{
-        width: 86%;
-        height: 36vh;
-    }
-    img.cabeca2{
-        width: 25%;
-    }
-    img.cabeca3{
-        width: 27%;
-    }
-    img.skil3{
-        width: 25%;
-    }
-    div.imagemBoneco3{
-        width: 86%;
-        height: 36vh;
-    }
-    .imagemFooter{
-        width: 74%;
-    }
-    p.paragrafoFooter{
-        width: 104%;
-        font-size: 8px;
-    }
-    .subParagrafo{
-        font-size: 8px;
-    }
-    
-    
-    
-}
-@media screen and (max-width:768px){
-    section{
-        border: solid greenyellow;
-        flex-direction: column;
-    }
-}
+/* fecha footer */
