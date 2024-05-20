@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", system-ui;
+}
+header{
+    height: 16vh;
+    background:linear-gradient( 120deg, #5D04D9 20%, #03318C 100%)  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* fecha Cabeçalho */
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+/* section- container_Cards */
+.container__cards{
+    width: 45%;
+    height: 100%;
+ 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px #5D04D9;
+
+}
+div.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px;
+    border-radius: 25px;
+    width: 28%;
+    height: 36vh;
+    background-color: #5d04d9;
+    
+} 
+/* .cards {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  */
+.img-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.imagemCard {
+    width: 74%;
+    
+}
+
+.card-container--info{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+p{
+    font-size: 10px;
+    height: 23px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.card-container--value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.delete-button{
+    border: none;
+    
+    
+}
+.lixeira{
+    width: 39%;
+}
+.lixeira:hover{
+    cursor: pointer;
+}
+/* fecha section */
+
+h1,h2{
+    text-align: center;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: 400;
+    font-style: normal; */
+    
+}
+/* formulario *//* segunda- Section */
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 86%;
+    height: 80%;
+}
+
+input.name{
+    
+    border:#03318C solid ;
+    border-radius: 50px;
+    height: 8%;
+    cursor: pointer;
+}
+input.valor{
+   
+    border:#03318C solid ;
+    border-radius: 50px;
+    height: 8%;
+    cursor: pointer;
+
+}
+input.imagem{
+    
+    border:#03318C solid ;
+    border-radius: 50px;
+    height: 8%;
+    cursor: pointer;
+
+}
+::placeholder{
+    font-size: 10px;
+    text-align: center;
+}
+.button-container{
+    display: flex;
+
+}
+
+.button-clear:hover{
+    cursor: pointer;
+}
+.button-submit{
+    width: 50%;
+    background-color: #03318C;
+    color: #fffeff;
+    font-size: 11px;
+    border-radius: 5px;
+    border: none;
+    height: 6vh;
+    margin: 10px;
+    padding: 10px;
+
+}
+.button-submit:hover{
+    cursor: pointer;
+}
+.button-clear{
+    width: 50%;
+    background-color: transparent ;
+    color: #03318C;
+    border: #03318C solid 2px;
+    font-size: 11px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    height: 6vh;
+    
+
+}
+
+
+/* Fecha Main */
+
+footer{
+    background-color: #5D04D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.logo-footer{
+    width: 40%;
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      
+   
+
+}
+img.imagemFooter{
+    width: 27%;
+    height: 4vh;
+
+}
+p.paragrafoFooter,.subParagrafo{
+    padding: 6px 10px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 10px;
+}
+/* fecha footer */

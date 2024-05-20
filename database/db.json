@@ -1,0 +1,41 @@
+{
+    "products": [
+        {
+            "name": "Dark Vader",
+            "price":"50",
+            "image":"https://www.nerdbemtrajado.com.br/cdn/shop/products/S23d4bfeaf4f3437899a3c55d2c574cefF.jpg?v=1681066285&width=600",
+            "id":1
+        },
+        {
+            "name": "Batman",
+            "price":"199",
+            "image":"https://www.nerdbemtrajado.com.br/cdn/shop/products/product-image-1985178329.jpg?v=1680986096&width=493",
+            "id":2
+        },
+        {   
+            "name": "Homem Aranha",
+            "price": "899",
+            "image": "https://www.nerdbemtrajado.com.br/cdn/shop/files/Sf04278f1869842b3a0d2bb836ad5d391Y.webp?v=1705851085&width=493",
+            "id": 3
+        },
+        {
+            "name": "Hulk",
+            "price": "229",
+            "image": "https://www.nerdbemtrajado.com.br/cdn/shop/products/Sd6d1db199a054d70bd0964373eed138dl.jpg?v=1680986754&width=493", 
+            "id":4
+        },
+        {
+            "name": "Minato Namikaze",
+            "price":"79",
+            "image": "https://www.nerdbemtrajado.com.br/cdn/shop/products/H13afd3ee4bd5494eb4e611cb6dc6b76fI.jpg?v=1681007580&width=600",
+            "id":5
+        },
+        {
+            "name":"Rainha Elizabeth",
+            "price":"149",
+            "image":"https://www.nerdbemtrajado.com.br/cdn/shop/products/S1d1b49579d14439a8be0625d6eeb587aK.jpg?v=1680995352&width=360",
+            "id":6
+        }
+       
+    ]
+}
